@@ -37,6 +37,7 @@ public class Question {
         this.option3 = option3;
         this.option4 = option4;
         this.answer = answer;
+
     }
 
 
@@ -95,4 +96,5 @@ public class Question {
     public void setAnswer(String answer) {
         this.answer = answer;
     }
+
 }
