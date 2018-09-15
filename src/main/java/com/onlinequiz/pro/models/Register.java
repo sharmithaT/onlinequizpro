@@ -3,6 +3,7 @@ package com.onlinequiz.pro.models;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.validation.constraints.Email;
 
 @Entity
 public class Register {
@@ -11,6 +12,7 @@ public class Register {
     String firstName;
     @Column(name = "lastname")
     String lastName;
+    @Email
     @Column(name = "email")
     String email;
     @Column(name = "gender")
