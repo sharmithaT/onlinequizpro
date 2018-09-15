@@ -23,7 +23,9 @@ public class Question {
         this.questionId = questionId;
         this.question = question;
         this.answer = answer;
+
     }
+
 
     public int getQuestionId() {
         return questionId;
@@ -48,4 +50,5 @@ public class Question {
     public void setAnswer(String answer) {
         this.answer = answer;
     }
+
 }
