@@ -14,7 +14,7 @@ public class LoginController {
     @RequestMapping(value = "/login")
     public ModelAndView login() {
 
-        return new ModelAndView("login");
+        return new ModelAndView("Login");
 
     }
 }
